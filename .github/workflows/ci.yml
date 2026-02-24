@@ -39,9 +39,9 @@ jobs:
         working-directory: backend
         run: pip install -r requirements.txt
 
-      - name: Run Flake8
-        working-directory: backend
-        run: flake8 . --ignore=E305,W292.
+      -   name: Run Flake8
+          working-directory: backend
+          run: flake8 . --ignore=E305,W292
 
       - name: Run Hello World
         working-directory: backend
