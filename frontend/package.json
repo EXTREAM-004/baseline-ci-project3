@@ -2,8 +2,8 @@
   "name": "hello-frontend",
   "version": "1.0.0",
   "scripts": {
-    "build": "echo Build successful",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "build": "echo Build successful"
   },
   "devDependencies": {
     "eslint": "^8.57.1"
